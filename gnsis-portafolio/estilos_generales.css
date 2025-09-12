@@ -1,0 +1,118 @@
+:root {
+    --body-font: "Quicksand", sans-serif;
+    --heading-font: "Nunito", sans-serif;
+    --secondary-font: "Playfair Display", Georgia, serif;
+}
+
+:root {
+    /* --accent-color: #DBCBB8; */
+    --accent-color: #FB5CA1;
+    --secondary-color: #FFB6C1;
+    --dark-color: #AA336A;
+    --grey-color: #f6f1ea;
+    --heading-color: #111;
+    --body-text-color: #616161;
+    --light-heading-color: #fff;
+    --light-background-color: #fff;
+    --light-text-color: #afafaf;
+    --bg-text-color: #f1f1f1;
+    --dark-text-color: #AA336A;
+    --bs-primary-rgb: 143, 109, 78;
+    --bs-secondary-rgb: 219, 203, 184;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+.contenedor_gnsis,
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: var(--secondary-color) !important;
+}
+
+.name_gnsis {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    padding-top: 45px;
+    line-height: 1.2;
+    color: var(--dark-color);
+}
+
+.descripcion_gnsis {
+    color: var(--body-text-color);
+    font-size: 20px !important;
+}
+
+.btn-gnsis {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+    font-size: 18px;
+    padding: .7em 2.5em;
+}
+
+.btn-gnsis:hover {
+    border-color: var(--accent-color);
+    color: #fff;
+    background-color: var(--dark-color);
+}
+
+.icon_gnsis i {
+    color: var(--accent-color);
+    font-size: 35px;
+    margin-bottom: 30px !important;
+}
+
+.titular_sobre_mi_gnsis {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#footer-bottom i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer-titulo {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_gnsis{
+    background-color: var(--dark-color);
+}
+
+header.contenedor_gnsis {
+    border-bottom: 1px solid var(--dark-color);
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-titulo{
+    justify-content: center;
+  }
+
+  .redes_gnsis{
+    text-align: center;
+  }
+
+  .name_gnsis {
+        font-size: 45px;
+    }
+}
+
+.swiper-pagination-bullet{
+    --swiper-pagination-bullet-size:10px;
+}
+
+.swiper-pagination-bullet-active{
+    --swiper-theme-color: var(--accent-color);
+    --swiper-pagination-bullet-size:10px;
+}
+
